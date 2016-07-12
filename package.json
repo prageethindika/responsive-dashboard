@@ -1,0 +1,32 @@
+{
+  "name": "responsive-dashboard",
+  "version": "1.0.0",
+  "description": "Designing this conceptual dashboard, I tried to follow latest UI/ UX design techniques. I have used the Photoshop and Illustrator for this template and followed the Bootstrap 4 – Alpha components and techniques such as dropdowns, panels, Font Awesome for icons, and 12 columns flex grid system. <br /><br />\r <h4>To view the Photoshop screens, please visit <a href=\"https://www.behance.net/prageethindika\" target=\"_balnk\">https://www.behance.net/prageethindika</a><h4>",
+  "main": "index.js",
+  "dependencies": {
+    "angular": "^1.5.7",
+    "bootstrap": "^4.0.0-alpha.2",
+    "grunt": "^1.0.1"
+  },
+  "devDependencies": {
+    "grunt-concat-css": "^0.3.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prageethindika/responsive-dashboard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prageethindika/responsive-dashboard/issues"
+  },
+  "homepage": "https://github.com/prageethindika/responsive-dashboard#readme"
+}

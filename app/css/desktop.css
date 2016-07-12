@@ -1,0 +1,15 @@
+.desktop {
+  color: red;
+}
+
+.new-class {
+  padding: 10px;
+}
+
+.new {
+  border: 1px;
+  padding: 10px;
+}
+.new .sub-new {
+  color: red;
+}

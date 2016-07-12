@@ -22,10 +22,16 @@ module.exports = function(grunt) {
 			css: {
 				files: '**/*.scss',
 				tasks: ['sass', 'cssmin:dev'],
-				options: {
-					livereload: true,
-				},
-			}
+				options:  {
+					livereload: true
+				}
+			},
+			livereload: {
+		      // Here we watch the files the sass task will compile to
+		      // These files are sent to the live reload server after sass compiles to them
+		      options: { livereload: true },
+		      files: ['app/**/*'],
+		    },
 		},
 		cssmin: {
 			dev:{

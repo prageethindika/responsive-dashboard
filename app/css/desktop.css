@@ -1,15 +1,42 @@
-.desktop {
-  color: red;
+body {
+  font-family: "Open Sans";
+  font-style: normal;
 }
 
-.new-class {
-  padding: 10px;
+.site-nav {
+  margin-top: 10%;
+}
+.site-nav .row {
+  padding: 10px 0;
 }
 
-.new {
-  border: 1px;
-  padding: 10px;
+.top-nav {
+  background-color: #387da5;
 }
-.new .sub-new {
-  color: red;
+
+.top-nav.navbar {
+  border-radius: 0;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+.logo .logo-bg {
+  background-color: #ff5e3a;
+  width: 44px;
+  height: 44px;
+  border-radius: 5px;
+  display: inline-block;
+}
+.logo .logo-text {
+  color: white;
+  display: block;
+  width: 44px;
+  height: 44px;
+  line-height: 1.75em;
+}
+.logo .logo-title {
+  margin-left: 10px;
+  color: white;
 }

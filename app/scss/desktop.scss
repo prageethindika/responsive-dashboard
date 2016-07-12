@@ -1,14 +1,46 @@
-.desktop{
-	color: red;
-}
-.new-class{
-	padding: 10px;
-}
-.new{
-	border: 1px;
-	padding: 10px;
-	.sub-new{
-		color: red;
-	}
+$logo-orange: #ff5e3a;
+$default-blue: #387da5;
+$white: #fff;
+
+body{
+	font-family: "Open Sans";
+	font-style: normal;
 }
 
+.site-nav{
+	margin-top: 10%;
+	.row{
+		padding: 10px 0;
+	}
+}
+.container-fluid{
+
+}
+.top-nav{
+	background-color: $default-blue;
+}
+.top-nav.navbar{
+	border-radius: 0;
+}
+.logo{
+	font-size: 24px;
+	font-weight: bold;
+	.logo-bg{
+		background-color: $logo-orange;
+		width: 44px;
+		height: 44px;
+		border-radius:5px;
+		display: inline-block;
+	}
+	.logo-text{		
+		color: $white;
+		display: block;
+		width: 44px;
+		height: 44px;
+		line-height: 1.75em;
+	}
+	.logo-title{
+		margin-left: 10px;
+		color: $white;
+	}
+}

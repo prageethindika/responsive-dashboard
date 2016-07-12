@@ -1,2 +1,2 @@
-/*! responsive-dashboard 12-07-2016, 3:51:30 PM */
+/*! responsive-dashboard 12-07-2016, 4:14:30 PM */
 var test=function(a){alert(a)};

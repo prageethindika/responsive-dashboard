@@ -65,6 +65,7 @@ module.exports = function(grunt) {
 		    		{expand: true, cwd: 'app/images/', src: ['**'], dest: 'dist/images/'},
 		    		{expand: true, cwd: 'app/libs/angular/', src: ['**'], dest: 'dist/libs/angular/'}, //angular
 		    		{expand: true, cwd: 'app/libs/bootstrap/dist/', src: ['**'], dest: 'dist/libs/bootstrap/dist/'}, //bootstrap
+		    		{expand: true, cwd: 'app/libs/tether/', src: ['**'], dest: 'dist/libs/tether/'}, //tether for bootstrap
 		    		{expand: true, cwd: 'app/libs/jquery/dist/', src: ['**'], dest: 'dist/libs/jquery/dist/'} //jquery
 		    	]
 		    }

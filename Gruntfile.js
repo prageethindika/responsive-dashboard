@@ -72,7 +72,9 @@ module.exports = function(grunt) {
 		    		{expand: true, cwd: 'app/libs/angular/', src: ['**'], dest: 'dist/libs/angular/'}, //angular
 		    		{expand: true, cwd: 'app/libs/bootstrap/dist/', src: ['**'], dest: 'dist/libs/bootstrap/dist/'}, //bootstrap
 		    		{expand: true, cwd: 'app/libs/tether/', src: ['**'], dest: 'dist/libs/tether/'}, //tether for bootstrap
-		    		{expand: true, cwd: 'app/libs/jquery/dist/', src: ['**'], dest: 'dist/libs/jquery/dist/'} //jquery
+		    		{expand: true, cwd: 'app/libs/jquery/dist/', src: ['**'], dest: 'dist/libs/jquery/dist/'}, //jquery
+		    		{expand: true, cwd: 'app/libs/font-awesome/css/', src: ['**'], dest: 'dist/libs/font-awesome/css/'}, //font-awesome
+		    		{expand: true, cwd: 'app/libs/font-awesome/fonts/', src: ['**'], dest: 'dist/libs/font-awesome/fonts/'} //font-awesome
 		    	]
 		    }
 		}
